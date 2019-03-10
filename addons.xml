@@ -3,7 +3,7 @@
   <extension point="xbmc.addon.repository" name="wantmyfreetv Add-on Repository">
     <info>https://raw.githubusercontent.com/wantmyfreetv/kodi-repo/master/addons.xml</info>
     <checksum>https://raw.githubusercontent.com/wantmyfreetv/kodi-repo/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://github.com/wantmyfreetv/kodi-repo/raw/master/download/</datadir>
+    <datadir zip="true">https://github.com/wantmyfreetv/kodi-repo/raw/master/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary></summary>
