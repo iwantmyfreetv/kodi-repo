@@ -18,7 +18,7 @@
   </extension>
 </addon>
 
-<addon id="kodi-repo" name="iwantmyfreetv Add-on Repository" version="1.0.1" provider-name="iwantmyfreetv">
+<addon id="repository.iwantmyfreetv" name="iwantmyfreetv Add-on Repository" version="1.0.1" provider-name="iwantmyfreetv">
   <extension point="xbmc.addon.repository" name="iwantmyfreetv Add-on Repository">
       <info>https://raw.githubusercontent.com/iwantmyfreetv/kodi-repo/master/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/iwantmyfreetv/kodi-repo/master/addons.xml.md5</checksum>
