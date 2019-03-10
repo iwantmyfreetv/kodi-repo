@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="kodi-repo" name="Add-on Repository" version="1.0.0" provider-name="wantmyfreetv">
+  <extension point="xbmc.addon.repository" name="wantmyfreetv Add-on Repository">
+    <info>https://raw.githubusercontent.com/wantmyfreetv/kodi-repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/wantmyfreetv/kodi-repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/wantmyfreetv/kodi-repo/raw/master/download/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>Home of Jamie Vardy's Party</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon> 
