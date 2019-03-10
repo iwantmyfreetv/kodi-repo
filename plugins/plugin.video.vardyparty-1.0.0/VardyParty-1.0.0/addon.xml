@@ -10,9 +10,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Welcome To Vardy's Party</summary>
-    <description lang="en">
-      Hosts a Vardy Party in your living room!
-    </description>
+    <description lang="en">Hosts a Vardy Party in your living room!</description>
     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <platform>all</platform>
   </extension>

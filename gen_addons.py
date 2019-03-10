@@ -57,7 +57,7 @@ class Generator:
     def _generate_md5_file( self ):
         try:
             # create a new md5 hash
-            m = md5.new( open( "addons.xml" ).read() ).hexdigest()
+            m = md5.new( open( path+"addons.xml" ).read() ).hexdigest()
             # save file
             self._save_file( m, file="addons.xml.md5" )
         except Exception, e:
