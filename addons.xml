@@ -53,6 +53,25 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.sparkle" name="Sparkle" version="0.0.84" provider-name="iwannabelikemike">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.addon.common" />
+		<import addon="script.module.requests"  />
+		<import addon="script.module.beautifulsoup4"  />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Just a little sparkle.</summary>
+		<description lang="en">A small plugin for playing reddit acestreams
+		</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="2018.09.20"
@@ -82,12 +101,13 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.vardyparty" name="Vardy Party" version="2.0.4" provider-name="iwantmyfreetv">
+<addon id="plugin.video.vardyparty" name="Vardy Party" version="2.0.5" provider-name="iwantmyfreetv">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.addon.common" />
     <import addon="script.module.requests"  />
     <import addon="script.module.beautifulsoup4"  />
+    <import addon="program.plexus" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
