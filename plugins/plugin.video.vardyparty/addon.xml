@@ -1,4 +1,4 @@
-<addon id="plugin.video.vardyparty" name="Vardy Party" version="2.9.5" provider-name="iwantmyfreetv">
+<addon id="plugin.video.vardyparty" name="Vardy Party" version="2.9.7" provider-name="iwantmyfreetv">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.addon.common" />
