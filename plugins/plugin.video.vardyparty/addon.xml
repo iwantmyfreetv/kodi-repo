@@ -1,11 +1,10 @@
-<addon id="plugin.video.vardyparty" name="Vardy Party" version="2.9.8" provider-name="iwantmyfreetv">
+<addon id="plugin.video.vardyparty" name="Vardy Party" version="2.9.9" provider-name="iwantmyfreetv">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.addon.common" />
     <import addon="script.module.requests"  />
     <import addon="script.module.beautifulsoup4"  />
     <import addon="program.plexus" />
-    <import addon="plugin.video.SportsDevil" />
     <import addon="script.module.tt" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
