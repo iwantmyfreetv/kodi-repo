@@ -4,7 +4,7 @@
 import os
 import md5
 
-path = "E:/Projects/kodi-repo/"
+path = "D:/Projects/kodi-repo/"
 class Generator:
     """
         Generates a new addons.xml file from each addons addon.xml file
